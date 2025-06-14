@@ -2,33 +2,36 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
+      <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SheCodes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <header>
-            <img src="./img/logo.png" alt="The She Codes Logo" class="logo">
+        <header class="flex space-between">
+            <img src="./img/logo.png" alt="The She Codes Logo" class="logo"> 
         <nav>
-        ul>
+        <ul>
                 <li><a href="#">Coders</a></li>
                 <li><a href="#">Mentors</a></li>
                 <li><a href="#">Partners</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
-            </ul>
+        </ul>
         </nav>
     </header>
            
     <main>
-        <section class="hero">
+        <section class="hero flex column padding-xl">
             <h1>A <span>movement</span> devoted to helping women learn tech skills.</h1>
              <a href="#" class="btn-primary">Start learning</a>
         </section>
-    <section class="articles-container">
-        <article>
+
+
+    <section class="flex articles-container">
+        <article class="padding-medium">
             <img class="icon" src="./img/tools.svg"
                 alt="A wrench and a screwdriver, lying crossed over one another diagonally"/>
             <h2>1 Day workshop</h2>
@@ -37,16 +40,20 @@
             </p>
             <a href="#" class="btn-primary">Apply></a>
         </article>
-        <article>
+
+        
+        <article class="padding-medium article">
             <img class="icon" src="./img/lightning.svg"
                 alt="A jagged lightning bolt, thick at the top and sharp at the bottom" />
             <h2> 1 Week Flash</h2>
             <p>Discover the fundamentals of tech in just one week taster aiming at teaching you the basics of the key emerging fields in tech.</p>
             <a href="#" class="btn-primary">Apply></a>
-        <article>
-        <article>
+    
+        </article>
+       
+        <article class="padding-medium">
             <img class="icon" src="./img/plus.svg"
-                alt="A plus sign formed by a horizontal line intersecting a vertical line" />
+                alt="A plus sign formed by a horizontal line intersecting a vertical line"/>
             <h2>6 Month Plus</h2>
             <p>She codes is a program providing an alternate pathway within tech. The Plus program is perfect for
 +               you if your desire is to enter a tech career.</p>
@@ -54,6 +61,7 @@
         </article>
     </section>
     
+    <section>
     <section class="contact-form">
         <h2>Get in touch</h2>
         <form>
@@ -69,21 +77,21 @@
         <textarea name="message-text" id="message" rows="10"></textarea>
          <input type="submit" value="Submit">
        </form>
-</section>
+    </section>
+
 </main>
  
 <footer>
         <nav>
             <ul>
-                <li><a href="#"><img src="img/instagram.svg" alt="Instagram"></a></li>
-                <li><a href="#"><img src="img/slack.svg" alt="Instagram"></a></li>
-                <li><a href="#"><img src="img/github.svg" alt="Instagram"></a></li>
+                <li><a href="#"><img src="img/instagram.svg" alt="Instagram" class="icon"></a></li>
+                <li><a href="#"><img src="img/slack.svg" alt="Instagram" class="icon"></a></li>
+                <li><a href="#"><img src="img/github.svg" alt="Instagram" class="icon"></a></li>
             </ul>
         </nav>
-        <div><p>&copy; Jo Minney, cat lover</p></div>
+       
     </footer>
     <div><p>&copy;MK 2025</p></div>
-
 </footer>
 
 </body>

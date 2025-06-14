@@ -1,0 +1,153 @@
+html {
+     box-sizing: border-box;
+     font-size: 16px;
+     font-family: "Inter", sans-serif;
+     color: var(--black);
+     scroll-behavior: smooth;
+ }
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: inherit;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: "Rubik", sans-serif;
+ }
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ol,
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+
+ ol,
+ ul {
+     list-style: none;
+ }
+
+ img {
+     max-width: 100%;
+     height: auto;
+ }
+
+ input,
+ button,
+ textarea,
+ select {
+     font: inherit;
+ } 
+ 
+ 
+ /* utility Classes*/
+
+.flex{
+display:flex;
+
+}
+.space-between{
+    justify-content: space-between;
+}
+.column{
+flex-direction: column;
+}
+.logo{
+    max-width:200px;
+    height:auto;
+}
+.hero{
+    background-color:rebeccapurple;
+    color:white;
+    /* .hamburger-icon  */
+hamburger-icon {
+  height: 50px;
+}
+
+ /* .hero */
+ .hero {
++   background-color: var(--brand);
+   padding: 56px 16px;
+   border-radius: 10px;
+   margin: 5px 10px;
+ }
+ 
+ .hero h1 {
+   font-size: 2rem;
+   margin-bottom: 24px;
+   color: var(--white);
+ }
+ 
+ .hero .hero-accent {
+   color: var(--action);
+}
+
+
+    
+ }
+ .padding-small{
+    padding:8px;
+}
+ .padding-medium{
+    padding:16px;
+}article
+ .padding-large{
+    padding:32px;
+}
+ .padding-xl{
+    padding:64px;
+}
+
+
+article .icon{
+    width:24px;
+}
+.icon{
+    width:32px;
+}
+article{
+   padding: 32px 16px;
+   background-color: var(--base-light);
+   border-radius: 10px;
+   margin: 5px 10px;
+   transition: all 0.3s ease;
+   }
+
+ article:hover {
+   filter: contrast(150%);
+ }
+ 
+
+ article .icon {
+   height: 24px;
+   width: 24px;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+ 
+ article .article-heading h2 {
+   margin-bottom: 16px;
+   color: var(--base-dark);
+}
+
+ article p {
+   margin-bottom: 16px;
+ }
+.btn-primary{
+    background-color: #ffa300;
+    color:black;
+}
+
